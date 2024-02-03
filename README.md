@@ -75,3 +75,7 @@ Feel free to reach out to me! You can contact me via email at jbatistaservetti@g
 ---
 
 Thank you for visiting my portfolio! I am excited about the opportunity to collaborate and contribute to meaningful projects. Let's connect and explore new possibilities together!
+<<<<<<< HEAD
+=======
+
+>>>>>>> 691f8b763f89de3ace148dac6f4385d7fa781430
