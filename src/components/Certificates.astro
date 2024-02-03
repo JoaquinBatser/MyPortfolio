@@ -1,0 +1,40 @@
+---
+import { certificates } from '@cv'
+---
+
+<section>
+  <h2>Certificates</h2>
+  <ul>
+    {
+      certificates.map(certificate => (
+        <li>
+          <article>
+            <header>{certificate.name}</header>
+            <p>{certificate.issuer}</p>
+            <p>{certificate.date}</p>
+          </article>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    height: 100%;
+    padding: 1rem;
+    border: 1px solid #cfcfcf;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 0.5rem;
+  }
+</style>

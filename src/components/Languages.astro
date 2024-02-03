@@ -1,0 +1,40 @@
+---
+import { languages } from '@cv'
+---
+
+<section>
+  <h2>Languages</h2>
+  <ul>
+    {
+      languages.map(language => (
+        <li>
+          <div>
+            <p>
+              {language.language}
+              {language.fluency}
+            </p>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  ul {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  ul div {
+    background: #525151;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  div p {
+    color: white;
+  }
+</style>

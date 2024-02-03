@@ -1,0 +1,206 @@
+{
+  "basics": {
+    "name": "Joaquin Batista",
+    "label": "Junior full-stack developer and tester",
+    "image": "./public/me.jpg",
+    "email": "jbatistaservetti@gmail.com",
+    "phone": "(598) 91 408 506",
+    "url": "",
+    "summary": "Soy un desarrollador junior full-stack y tester. Me especializo en Backend. Actualmente estoy estudiando Data Science e Inteligencia Artificial en la universidad.",
+    "location": {
+      "address": "",
+      "postalCode": "11900",
+      "city": "Montevideo",
+      "countryCode": "UY",
+      "country": "Uruguay"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Joaquin Batista",
+        "url": "https://www.linkedin.com/in/joaquin-david-batista-servetti-121173255/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "INE",
+      "position": "Censista",
+      "url": "https://www3.ine.gub.uy/rraa/censo.html",
+      "startDate": "30-07-23",
+      "endDate": "30-08-23",
+      "summary": "Trabaje como censista en la calle realizando encuenstas, tomando datos, y recuperando información escencial de nuestra población para el Instituto Nacional de Estadística",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Católica del Uruguay",
+      "url": "https://www.ucu.edu.uy/",
+      "area": "Inteligencia artificial y Data Science",
+      "studyType": "Carrera de grado",
+      "startDate": "15-03-2024",
+      "endDate": "-->",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Curso de Introduccion al Desarrollo Web",
+      "date": "10-12-2022",
+      "issuer": "Senpai Academy",
+      "url": ""
+    },
+    {
+      "name": "Programación para principiantes - Primeros pasos",
+      "date": "27-12-2022",
+      "issuer": "Udemy",
+      "url": ""
+    },
+    {
+      "name": "Desarrollo Web",
+      "date": "31-03-2033",
+      "issuer": "CoderHouse",
+      "url": ""
+    },
+    {
+      "name": "JavaScript",
+      "date": "14-08-2023",
+      "issuer": "CoderHouse",
+      "url": ""
+    },
+    {
+      "name": "React Js",
+      "date": "11-10-2023",
+      "issuer": "CoderHouse",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
+    },
+    {
+      "name": "React",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
+    },
+    {
+      "name": "SASS",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "FullStack"]
+    },
+    {
+      "name": "SQL",
+      "level": "Intermedio",
+      "keywords": ["Backend"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglés",
+      "fluency": "Avanzado"
+    },
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dante's Inferno",
+      "startDate": "",
+      "endDate": "",
+      "description": "Sitio web sobre Dante's Inferno. Desarrollado con Sass, HTML y CSS para diseño y programación.",
+      "highlights": [],
+      "url": " https://github.com/JoaquinBatser/PFBatista"
+    },
+    {
+      "name": "ApolStore E-commerce",
+      "startDate": "",
+      "endDate": "",
+      "description": "Uso de JavaScript para diseñar y codificar una tienda online de manera independiente.",
+      "highlights": [],
+      "url": "https://github.com/JoaquinBatser/ProyectoFinalBatista-JS"
+    },
+    {
+      "name": "Evoke E-commerce",
+      "startDate": "",
+      "endDate": "",
+      "description": "Proyecto de aprendizaje con React. Diseño y programación independientes para una tienda online.",
+      "highlights": [],
+      "url": " https://github.com/JoaquinBatser/BatistaReact"
+    },
+    {
+      "name": "Mongo E-commerce",
+      "startDate": "",
+      "endDate": "",
+      "description": "Desarrollo independiente utilizando Express, Node.js, Handlebars, Socket.io y MongoDB para una tienda online.",
+      "highlights": [],
+      "url": "https://github.com/JoaquinBatser/BACKEND_Proyect"
+    }
+  ]
+}

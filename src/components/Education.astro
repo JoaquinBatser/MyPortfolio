@@ -1,0 +1,35 @@
+---
+import { education } from '@cv'
+---
+
+<section>
+  <h2>Education</h2>
+  <ul>
+    {
+      education.map(education => (
+        <li>
+          <div>
+            <h3>{education.institution}</h3>
+            <small>
+              {education.startDate} - {education.endDate}
+            </small>
+          </div>
+          <p>{education.area}</p>
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+</style>

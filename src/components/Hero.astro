@@ -1,0 +1,57 @@
+---
+import { basics } from '@cv'
+
+const { name, label, email, phone, image, location, profiles } = basics
+import Link from '@/icons/Link.astro'
+---
+
+<div class='div'>
+  <div>
+    <h1>{name}</h1>
+    <p>{label}</p>
+    <p class='location'>{location.city}, {location.country}, {location.countryCode}</p>
+    {
+      profiles.map(profile => (
+        <div>
+          <a
+            href={profile.url}
+            target='_blank'
+          >
+            <Link />
+          </a>
+        </div>
+      ))
+    }
+  </div>
+  <span>
+    <img
+      src={image}
+      alt={name}
+    />
+  </span>
+</div>
+
+<style>
+  p {
+    font-size: 14px;
+  }
+  .div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+  }
+
+  .location {
+    font-size: small;
+  }
+
+  img {
+    width: 60px;
+  }
+</style>
