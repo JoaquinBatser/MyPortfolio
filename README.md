@@ -1,5 +1,4 @@
 # JOAQUIN BATISTA'S PORTFOLIO
-https://joaquin-batista.netlify.app/
 
 https://joaquin-batista.netlify.app/
 
