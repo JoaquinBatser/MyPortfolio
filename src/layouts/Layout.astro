@@ -32,20 +32,17 @@ import '@fontsource-variable/inter'
     />
     <title>{title}</title>
   </head>
-  <body>
+  <body class='dark:bg-neutral-900 dark:text-white'>
     <slot />
   </body>
 </html>
 <style is:global>
   :root {
     font-family: 'Roboto Mono Variable', sans-serif;
-    color-scheme: light dark;
   }
 
   body {
     padding: 3rem;
-    color: light-dark(blue, black);
-    background-color: light-dark(#efedea, #223a2c);
   }
   p,
   small {

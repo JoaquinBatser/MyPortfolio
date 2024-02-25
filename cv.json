@@ -2,7 +2,7 @@
   "basics": {
     "name": "Joaquin Batista",
     "label": "Desarrollador Junior full-stack y tester",
-    "image": "./public/me.jpg",
+    "image": "/me.jpg",
     "email": "jbatistaservetti@gmail.com",
     "phone": "(598) 91 408 506",
     "url": "",
@@ -205,6 +205,15 @@
       "description": "Desarrollo independiente utilizando Express, Node.js, Handlebars, Socket.io y MongoDB para una tienda online.",
       "highlights": [],
       "url": "https://github.com/JoaquinBatser/BACKEND_Proyect"
+    },
+    {
+      "name": "Rick&Morty API",
+      "active": true,
+      "startDate": "",
+      "endDate": "",
+      "description": "Página web utilizando la Rick&Morty API. Desarrollada con React, utilizando axios y reactQuery.",
+      "highlights": [],
+      "url": "https://github.com/JoaquinBatser/rickandmortyAPI.git"
     }
   ]
 }
