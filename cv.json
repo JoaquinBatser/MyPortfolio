@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Joaquin Batista",
-    "label": "Junior full-stack developer and tester",
+    "label": "Desarrollador Junior full-stack y tester",
     "image": "./public/me.jpg",
     "email": "jbatistaservetti@gmail.com",
     "phone": "(598) 91 408 506",
@@ -172,6 +172,7 @@
   "projects": [
     {
       "name": "Dante's Inferno",
+      "active": true,
       "startDate": "",
       "endDate": "",
       "description": "Sitio web sobre Dante's Inferno. Desarrollado con Sass, HTML y CSS para diseño y programación.",
@@ -180,6 +181,7 @@
     },
     {
       "name": "ApolStore E-commerce",
+      "active": true,
       "startDate": "",
       "endDate": "",
       "description": "Uso de JavaScript para diseñar y codificar una tienda online de manera independiente.",
@@ -188,6 +190,7 @@
     },
     {
       "name": "Evoke E-commerce",
+      "active": true,
       "startDate": "",
       "endDate": "",
       "description": "Proyecto de aprendizaje con React. Diseño y programación independientes para una tienda online.",
@@ -196,6 +199,7 @@
     },
     {
       "name": "Mongo E-commerce",
+      "active": true,
       "startDate": "",
       "endDate": "",
       "description": "Desarrollo independiente utilizando Express, Node.js, Handlebars, Socket.io y MongoDB para una tienda online.",

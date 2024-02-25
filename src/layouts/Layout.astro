@@ -37,56 +37,15 @@ import '@fontsource-variable/inter'
   </body>
 </html>
 <style is:global>
-  /* CSS RESET */
-  html {
-    box-sizing: border-box;
+  :root {
     font-family: 'Roboto Mono Variable', sans-serif;
+    color-scheme: light dark;
   }
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-    letter-spacing: -0.025rem;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  header {
-    font-weight: bold;
-    font-family: 'Inter Variable', sans-serif;
-    color: #030712;
-  }
-  ol,
-  ul {
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  /* CSS RESET */
 
   body {
-    padding: 4rem;
+    padding: 3rem;
+    color: light-dark(blue, black);
+    background-color: light-dark(#efedea, #223a2c);
   }
   p,
   small {
@@ -94,23 +53,15 @@ import '@fontsource-variable/inter'
     font-size: 12px;
     color: #6b7280;
   }
+  h2 {
+    font-family: 'Inter Variable', sans-serif;
+    font-weight: bold;
+  }
 
   section {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    margin-top: 2rem;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 16px;
-  }
-  h4 {
-    font-size: 14px;
+    /* margin-top: 2rem; */
   }
 </style>

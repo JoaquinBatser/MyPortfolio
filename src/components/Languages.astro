@@ -2,16 +2,16 @@
 import { languages } from '@cv'
 ---
 
+<hr class='my-8 opacity-10' />
 <section>
-  <h2>Languages</h2>
-  <ul>
+  <h2>Lenguajes</h2>
+  <ul class='flex gap-2 flex-wrap'>
     {
       languages.map(language => (
-        <li>
+        <li class='bg-slate-600 px-2 py-1 rounded dark:bg-slate-800'>
           <div>
-            <p>
-              {language.language}
-              {language.fluency}
+            <p class='text-white'>
+              {language.language} {language.fluency}
             </p>
           </div>
         </li>
@@ -19,22 +19,3 @@ import { languages } from '@cv'
     }
   </ul>
 </section>
-
-<style>
-  ul {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  ul div {
-    background: #525151;
-    padding: 0.3rem 0.7rem;
-    border-radius: 0.5rem;
-    font-size: 0.9rem;
-  }
-
-  div p {
-    color: white;
-  }
-</style>

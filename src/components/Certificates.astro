@@ -2,14 +2,17 @@
 import { certificates } from '@cv'
 ---
 
+<hr class='my-8 opacity-10' />
 <section>
-  <h2>Certificates</h2>
-  <ul>
+  <h2>Certificados</h2>
+
+  <ul class='grid gap-4'>
     {
       certificates.map(certificate => (
-        <li>
+        <li class='border dark:border-slate-600 rounded-lg p-4 items-center grid'>
           <article>
-            <header>{certificate.name}</header>
+            <header class='text-balance'>{certificate.name}</header>
+            <hr class='my-2' />
             <p>{certificate.issuer}</p>
             <p>{certificate.date}</p>
           </article>
@@ -21,20 +24,6 @@ import { certificates } from '@cv'
 
 <style>
   ul {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-
-  article {
-    height: 100%;
-    padding: 1rem;
-    border: 1px solid #cfcfcf;
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    gap: 0.5rem;
   }
 </style>
