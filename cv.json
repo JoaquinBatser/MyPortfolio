@@ -4,7 +4,7 @@
     "label": "Desarrollador Junior full-stack y tester",
     "image": "/me.jpg",
     "email": "jbatistaservetti@gmail.com",
-    "phone": "(598) 91 408 506",
+    "phone": "",
     "url": "",
     "summary": "Soy un desarrollador junior full-stack y tester. Me especializo en Backend. Actualmente estoy estudiando Data Science e Inteligencia Artificial en la universidad.",
     "location": {
@@ -19,6 +19,11 @@
         "network": "LinkedIn",
         "username": "Joaquin Batista",
         "url": "https://www.linkedin.com/in/joaquin-david-batista-servetti-121173255/"
+      },
+      {
+        "network": "Github",
+        "username": "JoaquinBatser",
+        "url": "https://github.com/JoaquinBatser"
       }
     ]
   },

@@ -2,26 +2,56 @@
 import { basics } from '@cv'
 
 const { name, label, email, phone, image, location, profiles } = basics
-import Link from '@/icons/Link.astro'
+import Mail from '@/icons/Mail.astro'
+import LinkedIn from '@/icons/LinkedIn.astro'
+import GitHub from '@/icons/GitHub.astro'
+import WorldMap from '@/icons/WorldMap.astro'
 ---
 
 <div class='flex justify-between'>
   <div class='flex flex-col justify-between'>
     <h1 class='text-2xl font-bold'>{name}</h1>
     <p>{label}</p>
-    <p class='location'>{location.city}, {location.country}, {location.countryCode}</p>
-    {
-      profiles.map(profile => (
-        <div>
-          <a
-            href={profile.url}
-            target='_blank'
-          >
-            <Link />
-          </a>
-        </div>
-      ))
-    }
+    <div class='flex items-center'>
+      <span class='mr-2 opacity-40'>
+        <WorldMap s />
+      </span>
+      <p>{location.city}, {location.country}, {location.countryCode}</p>
+    </div>
+    <div class='flex items-center'>
+      <span class='mr-2 opacity-40'>
+        <Mail />
+      </span>
+      <p>{email}</p>
+    </div>
+    <div class='flex gap-2 mt-4'>
+      {
+        profiles.map(profile => (
+          <div>
+            {profile.network === 'LinkedIn' && (
+              <a
+                target='_blank'
+                href={profile.url}
+              >
+                <div class='border opacity-40 p-1.5 rounded hover:opacity-80 transition-all'>
+                  <LinkedIn />
+                </div>
+              </a>
+            )}
+            {profile.network === 'Github' && (
+              <a
+                target='_blank'
+                href={profile.url}
+              >
+                <div class='border opacity-40 p-1.5 rounded hover:opacity-80 transition-all'>
+                  <GitHub />
+                </div>
+              </a>
+            )}
+          </div>
+        ))
+      }
+    </div>
   </div>
 
   <img
