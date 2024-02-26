@@ -6,7 +6,7 @@
     "email": "jbatistaservetti@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Soy un desarrollador junior full-stack y tester. Me especializo en Backend. Actualmente estoy estudiando Data Science e Inteligencia Artificial en la universidad.",
+    "summary": "Soy un desarrollador junior full-stack y tester. Me especializo en Backend. Actualmente estoy estudiando Data Science e Inteligencia Artificial en la Universidad Católica del Uruguay.",
     "location": {
       "address": "",
       "postalCode": "11900",
@@ -99,6 +99,12 @@
       "date": "11-10-2023",
       "issuer": "CoderHouse",
       "url": ""
+    },
+    {
+      "name": "Testing",
+      "date": "19-12-2023",
+      "issuer": "Jóvenes a Programar (Ceibal)",
+      "url": ""
     }
   ],
   "publications": [
@@ -155,7 +161,7 @@
   "languages": [
     {
       "language": "Inglés",
-      "fluency": "Avanzado"
+      "fluency": "Avanzado / First Certificate"
     },
     {
       "language": "Español",
