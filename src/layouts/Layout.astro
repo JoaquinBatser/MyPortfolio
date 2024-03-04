@@ -32,23 +32,25 @@ import '@fontsource-variable/inter'
     />
     <title>{title}</title>
   </head>
-  <body class='dark:bg-neutral-900 dark:text-white'>
+  <body>
     <slot />
   </body>
 </html>
 <style is:global>
   :root {
     font-family: 'Roboto Mono Variable', sans-serif;
+    color: #a3a3a3;
   }
 
   body {
+    background-color: black;
     padding: 3rem;
   }
   p,
   small {
     text-wrap: pretty;
-    font-size: 12px;
-    color: #6b7280;
+    font-size: 14px;
+    color: #767676;
   }
   h2 {
     font-family: 'Inter Variable', sans-serif;

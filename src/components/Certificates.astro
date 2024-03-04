@@ -2,17 +2,17 @@
 import { certificates } from '@cv'
 ---
 
-<hr class='my-8 opacity-10' />
+<hr class='my-8 border-neutral-900' />
 <section>
-  <h2>Certificados</h2>
+  <h2>Certificates</h2>
 
   <ul class='grid gap-4'>
     {
       certificates.map(certificate => (
-        <li class='border dark:border-slate-600 rounded-lg p-5 items-center grid'>
+        <li class='border rounded-lg p-5 dark:border-neutral-900 hover:border-neutral-500 transition-all h-full'>
           <article>
             <header class='text-balance'>{certificate.name}</header>
-            <hr class='my-2' />
+            <hr class='my-2 border-neutral-900' />
             <p>{certificate.issuer}</p>
             <p>{certificate.date}</p>
           </article>

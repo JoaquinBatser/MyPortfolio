@@ -2,15 +2,15 @@
 import { skills } from '@cv'
 ---
 
-<hr class='my-8 opacity-10' />
+<hr class='my-8 border-neutral-900' />
 <section>
-  <h2>Habilidades</h2>
+  <h2>Skills</h2>
   <ul class='flex gap-2 flex-wrap'>
     {
       skills.map(skill => (
-        <li class='bg-slate-600 px-2 py-1 rounded dark:bg-slate-800'>
+        <li class='bg-neutral-900 px-2 py-1 rounded'>
           <div>
-            <p class='text-white'>{skill.name}</p>
+            <p>{skill.name}</p>
           </div>
         </li>
       ))

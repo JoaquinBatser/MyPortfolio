@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Joaquin Batista",
-    "label": "Junior Full-Stack Developer and Tester",
+    "label": "Desarrollador Junior full-stack y tester",
     "image": "/me.jpg",
     "email": "jbatistaservetti@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "I am a junior full-stack developer and tester, specializing in Backend. Currently, I am studying Data Science and Artificial Intelligence at the Catholic University of Uruguay.",
+    "summary": "Soy un desarrollador junior full-stack y tester. Me especializo en Backend. Actualmente estoy estudiando Data Science e Inteligencia Artificial en la Universidad Católica del Uruguay.",
     "location": {
       "address": "",
       "postalCode": "11900",
@@ -30,21 +30,21 @@
   "work": [
     {
       "name": "INE",
-      "position": "Enumerator",
+      "position": "Censista",
       "url": "https://www3.ine.gub.uy/rraa/censo.html",
       "startDate": "30-07-23",
       "endDate": "30-08-23",
-      "summary": "I worked as an enumerator on the streets conducting surveys, collecting data, and retrieving essential information about our population for the National Institute of Statistics.",
+      "summary": "Trabaje como censista en la calle realizando encuenstas, tomando datos, y recuperando información escencial de nuestra población para el Instituto Nacional de Estadística",
       "highlights": []
     }
   ],
 
   "education": [
     {
-      "institution": "Catholic University of Uruguay",
+      "institution": "Universidad Católica del Uruguay",
       "url": "https://www.ucu.edu.uy/",
-      "area": "Artificial Intelligence and Data Science",
-      "studyType": "Undergraduate Degree",
+      "area": "Inteligencia artificial y Data Science",
+      "studyType": "Carrera de grado",
       "startDate": "15-03-2024",
       "endDate": "-->",
       "score": "",
@@ -54,19 +54,19 @@
 
   "certificates": [
     {
-      "name": "Introduction to Web Development Course",
+      "name": "Curso de Introduccion al Desarrollo Web",
       "date": "10-12-2022",
       "issuer": "Senpai Academy",
       "url": ""
     },
     {
-      "name": "Programming for Beginners - Getting Started",
+      "name": "Programación para principiantes - Primeros pasos",
       "date": "27-12-2022",
       "issuer": "Udemy",
       "url": ""
     },
     {
-      "name": "Web Development",
+      "name": "Desarrollo Web",
       "date": "31-03-2033",
       "issuer": "CoderHouse",
       "url": ""
@@ -94,53 +94,53 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
     },
     {
       "name": "CSS",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
     },
     {
       "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Backend", "FullStack"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
     },
     {
       "name": "React",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Backend", "FullStack"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "FullStack"]
     },
     {
       "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
     },
     {
       "name": "SASS",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño responsive"]
     },
     {
       "name": "MongoDB",
-      "level": "Intermediate",
-      "keywords": ["Web Development", "Backend", "FullStack"]
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Web", "Backend", "FullStack"]
     },
     {
       "name": "SQL",
-      "level": "Intermediate",
+      "level": "Intermedio",
       "keywords": ["Backend"]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Advanced / First Certificate"
+      "language": "Inglés",
+      "fluency": "Avanzado / First Certificate"
     },
     {
-      "language": "Spanish",
-      "fluency": "Native"
+      "language": "Español",
+      "fluency": "Nativo"
     }
   ],
 
@@ -150,16 +150,16 @@
       "active": true,
       "startDate": "",
       "endDate": "",
-      "description": "Website about Dante's Inferno. Developed with Sass, HTML, and CSS for design and programming.",
+      "description": "Sitio web sobre Dante's Inferno. Desarrollado con Sass, HTML y CSS para diseño y programación.",
       "highlights": [],
-      "url": "https://github.com/JoaquinBatser/PFBatista"
+      "url": " https://github.com/JoaquinBatser/PFBatista"
     },
     {
       "name": "ApolStore E-commerce",
       "active": true,
       "startDate": "",
       "endDate": "",
-      "description": "Use of JavaScript to independently design and code an online store.",
+      "description": "Uso de JavaScript para diseñar y codificar una tienda online de manera independiente.",
       "highlights": [],
       "url": "https://github.com/JoaquinBatser/ProyectoFinalBatista-JS"
     },
@@ -168,16 +168,16 @@
       "active": true,
       "startDate": "",
       "endDate": "",
-      "description": "Learning project with React. Independent design and programming for an online store.",
+      "description": "Proyecto de aprendizaje con React. Diseño y programación independientes para una tienda online.",
       "highlights": [],
-      "url": "https://github.com/JoaquinBatser/BatistaReact"
+      "url": " https://github.com/JoaquinBatser/BatistaReact"
     },
     {
       "name": "Mongo E-commerce",
       "active": true,
       "startDate": "",
       "endDate": "",
-      "description": "Independent development using Express, Node.js, Handlebars, Socket.io, and MongoDB for an online store.",
+      "description": "Desarrollo independiente utilizando Express, Node.js, Handlebars, Socket.io y MongoDB para una tienda online.",
       "highlights": [],
       "url": "https://github.com/JoaquinBatser/BACKEND_Proyect"
     },
@@ -186,27 +186,9 @@
       "active": true,
       "startDate": "",
       "endDate": "",
-      "description": "Website using the Rick&Morty API. Developed with React, using axios and reactQuery.",
+      "description": "Página web utilizando la Rick&Morty API. Desarrollada con React, utilizando axios y reactQuery.",
       "highlights": [],
       "url": "https://github.com/JoaquinBatser/rickandmortyAPI.git"
-    },
-    {
-      "name": "Weather-app",
-      "active": true,
-      "startDate": "",
-      "endDate": "",
-      "description": "Website using WeatherAPI. Developed with React, using axios.",
-      "highlights": [],
-      "url": "https://github.com/JoaquinBatser/weather-app.git"
-    },
-    {
-      "name": "Note-taking-app",
-      "active": true,
-      "startDate": "",
-      "endDate": "",
-      "description": "Website for taking and saving notes. Developed with MERN, MongoDB, Express.js, React, and Node.js.",
-      "highlights": [],
-      "url": "https://github.com/JoaquinBatser/notetaking-app.git"
     }
   ]
 }

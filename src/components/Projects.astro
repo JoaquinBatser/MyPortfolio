@@ -2,9 +2,9 @@
 import { projects } from '@cv'
 ---
 
-<hr class='my-8 opacity-10' />
+<hr class='my-8 border-neutral-900' />
 <section>
-  <h2>Proyectos</h2>
+  <h2>Projects</h2>
   <ul class='grid gap-4'>
     {
       projects.map(project => (
@@ -12,14 +12,14 @@ import { projects } from '@cv'
           href={project.url}
           target='_blank'
         >
-          <li class='border rounded-lg p-5 dark:border-slate-600 hover:border-slate-400 transition-all h-full'>
+          <li class='border rounded-lg p-5 dark:border-neutral-900 hover:border-neutral-500 transition-all h-full'>
             <article class='relative'>
               <div class='flex justify-between items-start'>
                 <header class='text-balance'>{project.name}</header>
                 {project.active && <span class='text-green-500'>●</span>}
                 {!project.active && <span class='text-red-500'>●</span>}
               </div>
-              <hr class='my-2' />
+              <hr class='my-2 border-neutral-900' />
               <p>{project.description}</p>
             </article>
           </li>
